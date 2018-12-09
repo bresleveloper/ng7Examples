@@ -5,7 +5,6 @@ import { Compy1Component } from '../comps/compy1/compy1.component';
 import { Compy2Component } from '../comps/compy2/compy2.component';
 import { InlineComponent } from '../comps/inline/inline.component';
 import { RedmiDirective } from '../dir/redmi.directive';
-import { HeaderComponent } from '../bookstore/c/header/header.component';
 
 @NgModule({
   imports: [
@@ -17,14 +16,12 @@ import { HeaderComponent } from '../bookstore/c/header/header.component';
     Compy2Component,
     InlineComponent,
     RedmiDirective,
-    HeaderComponent,
   ],
   exports:[
     Compy1Component,
     Compy2Component,
     InlineComponent,
     RedmiDirective,
-    HeaderComponent,
   ]
 })
 export class M1Module { }
