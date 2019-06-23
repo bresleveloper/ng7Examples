@@ -1,0 +1,15 @@
+1. app module
+2. git & github & bitbucket
+3. project definition
+
+sharing-world
+
+svc - counter data
+
+comp1 - counter independed
+
+comp2 - counter by service
+
+comp3 - show shared data (of 2)
+
+show/hide comps
