@@ -1,13 +1,14 @@
 
-1. הקמת רכיב אב (דף)
-2. הקמת שירות
-3. הקמת 3 רכיבים
+1. create main component
+2. create service
+3. create 3 components
 
-4. שירות - הגדרת תוכן (משתנה)
-5. פונ' רכיב 1 (COUTNER)
-6. פונ' רכיב 3 - הצגת ערך משירות
-7. פונ' רכיב 2 - COUTNER משירות
+4. define service functionallity
+5. define comp 1 (COUTNER)
+6. define comp 3 - show data from service
+7. define comp 2 - COUTNER from service
 
-8. לשים V על כל רכיב עם NGIF
+8. checkbox in main component to show components with NGIF
 
+tip
 *constructor(public s:SharingWorldSvcService)
